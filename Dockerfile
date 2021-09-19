@@ -8,8 +8,8 @@ ENV GO111MODULE on
 
 RUN  \
      apk add --no-cache git && \
-     git clone https://github.com/minio/minio && cd minio && \
-     git checkout master && go install -v -ldflags "$(go run buildscripts/gen-ldflags.go)"
+     git clone https://github.com/yandroid/minio.git && cd minio && \
+     git checkout 2010-10 && go install -v -ldflags "$(go run buildscripts/gen-ldflags.go)"
 
 FROM alpine:3.12
 
