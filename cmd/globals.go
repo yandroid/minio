@@ -72,7 +72,7 @@ const (
 const (
 	// Limit fields size (except file) to 1Mib since Policy document
 	// can reach that size according to https://aws.amazon.com/articles/1434
-	maxFormFieldSize = int64(1 * humanize.MiByte)
+	maxFormFieldSize = int64(100 * humanize.MiByte)
 
 	// Limit memory allocation to store multipart data
 	maxFormMemory = int64(5 * humanize.MiByte)
