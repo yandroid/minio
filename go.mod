@@ -1,4 +1,4 @@
-module github.com/minio/minio
+module github.com/yandroid/minio
 
 go 1.14
 
@@ -45,13 +45,13 @@ require (
 	github.com/mattn/go-ieproxy v0.0.1 // indirect
 	github.com/mattn/go-isatty v0.0.8
 	github.com/miekg/dns v1.1.8
-	github.com/minio/cli v1.22.0
-	github.com/minio/highwayhash v1.0.0
-	github.com/minio/minio-go/v7 v7.0.5-0.20200811211821-14ed05478889
-	github.com/minio/selfupdate v0.3.1
-	github.com/minio/sha256-simd v0.1.1
-	github.com/minio/simdjson-go v0.1.5
-	github.com/minio/sio v0.2.0
+	github.com/yandroid/cli v1.22.0
+	github.com/yandroid/highwayhash v1.0.0
+	github.com/yandroid/minio-go/v7 v7.0.5-0.20200811211821-14ed05478889
+	github.com/yandroid/selfupdate v0.3.1
+	github.com/yandroid/sha256-simd v0.1.1
+	github.com/yandroid/simdjson-go v0.1.5
+	github.com/yandroid/sio v0.2.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mmcloughlin/avo v0.0.0-20200803215136-443f81d77104 // indirect
 	github.com/montanaflynn/stats v0.5.0
