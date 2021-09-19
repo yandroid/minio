@@ -133,7 +133,7 @@ func newApp(name string) *cli.App {
 
 	app := cli.NewApp()
 	app.Name = name
-	app.Author = "MinIO, Inc."
+	app.Author = "MinIO, Zeus Version"
 	app.Version = ReleaseTag
 	app.Usage = "High Performance Object Storage"
 	app.Description = `Build high performance data infrastructure for machine learning, analytics and application data workloads with MinIO`
